@@ -7,4 +7,4 @@ var server = http.createServer(function(request, response){
 	fs.createReadStream('./index.html').pipe(response);
 })
 
-server.listen(8080)
+server.listen(8080);
